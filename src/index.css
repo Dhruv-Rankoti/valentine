@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: pink;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.my-image {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.my-button {
+    display: flex;
+    gap: 25px;
+}
+
+.my-button button {
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.4);
+    cursor: pointer;
+}
+
+.my-button button:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
