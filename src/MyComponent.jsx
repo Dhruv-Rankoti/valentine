@@ -42,7 +42,7 @@ function MyComponent() {
 
     return (
         <div className="container">
-            <img className="my-image" src={imgUrl} alt="manja na" />
+            <img className="my-image" src={imgUrl} alt="cat" />
             <h1>{text}</h1>
             <div className="my-button">
                 {showNoButton && <button onClick={yes}>Yes</button>}
