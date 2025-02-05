@@ -6,7 +6,7 @@ function MyComponent() {
     const [count, setCount] = useState(0);
     const [showNoButton, setShowNoButton] = useState(true);
 
-    let imgUrl = `./src/assets/${img}.gif`;
+    let imgUrl = `/assets/${img}.gif`;
 
     function yes(e) {
         setImg('kiss');
